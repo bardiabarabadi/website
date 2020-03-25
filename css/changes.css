@@ -2,10 +2,40 @@
 
 
 .fw{
-	color: floralwhite;
+    
 
 }
 
 .h1{
 	color: floralwhite;
+	font-family: "source-sans-pro"
+}
+
+.body{
+	font-family: "rosario";
+	color: #151414;
+}
+
+a{
+	text-decoration-line: underline;
+}
+
+/* unvisited link */
+a:link {
+  color: #321B14;
+}
+
+/* visited link */
+a:visited {
+  color: #6D3B2B;
+}
+
+/* mouse over link */
+a:hover {
+  color: #7B4333;
+}
+
+/* selected link */
+a:active {
+  color: #B73F39;
 }
